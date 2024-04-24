@@ -1,11 +1,13 @@
 import React from "react";
 import "./Home.css";
-import Card from "../../components/Card/Card";
+import Header from "../../components/Header/Header";
+import MainContent from "../../components/MainContent/MainContent";
 
 const Home = () => {
   return (
     <div>
-      <Card />
+      <Header />
+      <MainContent />
     </div>
   );
 };
