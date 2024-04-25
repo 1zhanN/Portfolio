@@ -1,12 +1,12 @@
 import React from "react";
 import "./MainContent.css";
-import Card from "../Card/Card";
+import Cards from "../Cards/Cards";
 
 const MainContent = () => {
   return (
     <div>
-      <Card />
-      <Card />
+      <Cards />
+      <Cards />
     </div>
   );
 };

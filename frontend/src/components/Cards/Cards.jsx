@@ -1,7 +1,7 @@
 import React from "react";
-import "./Card.css";
+import "./Cards.css";
 
-const Card = () => {
+const Cards = () => {
   return (
     <div>
       <div className="container">
@@ -18,4 +18,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Cards;
