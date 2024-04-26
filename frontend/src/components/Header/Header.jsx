@@ -8,7 +8,7 @@ const Header = () => {
     <div className="container" id="home">
       <div className="row">
         <div className="col-md-8">
-          <div className="card header-pp d-flex flex-column justify-content-between p-4">
+          <div className="card stacked-linear header-pp d-flex flex-column justify-content-between p-4">
             <h1 className="mb-4">
               Hey, I'm Izhan, a Frontend Developer in his humble beginnings.
             </h1>

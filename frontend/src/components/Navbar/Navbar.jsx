@@ -7,12 +7,12 @@ const Navbar = () => {
   return (
     <div>
       <ul className="nav justify-content-between">
-      <Link to="/">
-      <li className="nav-item">
-              <img src={logo} style={{ padding: "10px" }} />
-              1zhanN
+        <Link to="/">
+          <li className="nav-item">
+            <img src={logo} style={{ padding: "12px" }} />
+            1zhanN
           </li>
-      </Link>
+        </Link>
 
         <div className="d-flex">
           <li className="nav-item">
@@ -31,8 +31,8 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <Link to="/certificates">
-                Certificates
+            <Link to="/certificates" className="nav-link">
+              Certificates
             </Link>
           </li>
         </div>
