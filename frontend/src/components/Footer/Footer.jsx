@@ -3,8 +3,8 @@ import "./Footer.css";
 import { assets } from "../../assets/assets";
 const Footer = () => {
   return (
-    <div>
-      <div className="container">
+    <div id="contact">
+      <div className="container" >
         <div className="row">
           <div className="col">
             <div className="card footer-pp d-flex flex-column justify-content-between p-4">

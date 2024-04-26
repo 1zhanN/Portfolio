@@ -5,7 +5,7 @@ import { assets } from "../../assets/assets";
 
 const Header = () => {
   return (
-    <div className="container">
+    <div className="container" id="home">
       <div className="row">
         <div className="col-md-8">
           <div className="card header-pp d-flex flex-column justify-content-between p-4">
