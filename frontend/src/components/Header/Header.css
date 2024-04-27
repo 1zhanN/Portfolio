@@ -1,11 +1,10 @@
 .header-pp {
   height: 500px;
-  background-color: #4a86c2;
-  border: 1px solid #dee2e6;
   border-radius: 35px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: none; 
 }
 .header-pp img {
   width: 100%;
@@ -44,5 +43,5 @@
 .stacked-linear {
   background: linear-gradient(225deg, #8aa90b, rgba(211, 191, 191, 0) 50.71%),
     linear-gradient(180deg, rgba(221, 230, 221, 0.8), rgb(0 255 0 / 0%) 70.71%),
-    linear-gradient(320deg, #f3d88b, rgba(12, 12, 190, 0) 70.71%);
+    linear-gradient(320deg, #d8ba6f, rgba(12, 12, 190, 0) 70.71%);
 }

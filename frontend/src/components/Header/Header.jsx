@@ -9,10 +9,10 @@ const Header = () => {
       <div className="row">
         <div className="col-md-8">
           <div className="card stacked-linear header-pp d-flex flex-column justify-content-between p-4">
-            <h1 className="mb-4">
+            <h1 className="mb-4 display-5">
               Hey, I'm Izhan, a Frontend Developer in his humble beginnings.
             </h1>
-            <p>
+            <p className="lead">
               I believe in the power of technology to shape the future and
               create engaging experiences, whether it's through captivating game
               worlds or beautifully designed websites.

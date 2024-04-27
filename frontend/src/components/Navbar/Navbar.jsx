@@ -7,34 +7,34 @@ const Navbar = () => {
   return (
     <div>
       <ul className="nav justify-content-between">
-        <Link to="/">
-          <li className="nav-item">
-            <img src={logo} style={{ padding: "12px" }} />
+        <Link to="/" className="nav-link">
+          <li className="nav-item custom-link">
+            <img src={logo} />
             1zhanN
           </li>
         </Link>
 
         <div className="d-flex">
-          <li className="nav-item">
-            <a className="nav-link active" href="#home">
+          <li className="nav-item ">
+            <a className="nav-link custom-link" href="#home">
               Home
             </a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#projects">
+          <li className="nav-item ">
+            <a className="nav-link custom-link" href="#projects">
               Projects
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#contact">
+            <a className="nav-link custom-link" href="#contact">
               Contact
             </a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="/certificates" className="nav-link">
               Certificates
             </Link>
-          </li>
+          </li> */}
         </div>
       </ul>
     </div>

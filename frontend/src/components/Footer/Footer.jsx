@@ -4,10 +4,10 @@ import { assets } from "../../assets/assets";
 const Footer = () => {
   return (
     <div id="contact">
-      <div className="container" >
+      <div className="container">
         <div className="row">
           <div className="col">
-            <div className="card footer-pp d-flex flex-column justify-content-between p-4">
+            <div className="card stacked-linear footer-pp d-flex flex-column justify-content-between p-4">
               <h1 className="mb-4">Want to Collaborate?</h1>
               <p>
                 Feel free to reach out to me at if you have any questions or

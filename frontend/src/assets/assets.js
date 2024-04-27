@@ -35,7 +35,7 @@ export const assets = {
 
 }
 
-export const project = [
+export const project_list = [
     {
       name: "Hamsafar",
       description: "ہمسفر | Exploring Cities Redesigned",
