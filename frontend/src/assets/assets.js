@@ -39,22 +39,26 @@ export const project_list = [
     {
       name: "Hamsafar",
       description: "ہمسفر | Exploring Cities Redesigned",
-      image: hamsafar
+      image: hamsafar,
+      link: "https://github.com/1zhanN/Project_Smart_City"
     },
     {
       name: "Weather App",
       description: "Just a simple weather App :)",
-      image: weatherapp
+      image: weatherapp,
+      link: "https://1zhann.github.io/WeatherApp/"
     },
     {
       name: "Movie Land",
       description: "Search your fav Movies, Shows and More..",
-      image: movieland
+      image: movieland,
+      link: "https://github.com/1zhanN/movie_land"
     },
     {
       name: "Food Delivery App",
       description: "reinventing the way you order food",
-      image: food_delivery
+      image: food_delivery,
+      link: "https://github.com/1zhanN/food-delivery"
     }
   ];
   

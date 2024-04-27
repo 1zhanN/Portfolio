@@ -2,7 +2,14 @@ import React from "react";
 import "./Card.css";
 import { assets } from "../../assets/assets";
 
-const Cards = ({ name, description, image }) => {
+const Cards = ({ name, description, image, link }) => {
+  const handleLink = () => {
+    if (link) {
+      window.open(link, "_blank"); // Open link in new tab
+    } else {
+      console.error("No link provided."); // Log an error if link is missing
+    }
+  };
   return (
     <div className="card-pp">
       <img src={image} className="card-img-top" alt={name} />
@@ -12,8 +19,12 @@ const Cards = ({ name, description, image }) => {
           <p className="card-text">{description}</p>
         </div>
         <div className="btn-link">
-          <button type="button" className="btn btn-light btn-circle btn-xl">
-            <img src={assets.external_link} alt="LinkedIn" />
+          <button
+            type="button"
+            className="btn btn-light btn-circle btn-xl"
+            onClick={handleLink}
+          >
+            <img src={assets.external_link} alt="Links" />
           </button>
         </div>
       </div>

@@ -13,6 +13,7 @@ const MainContent = () => {
               name={project.name}
               description={project.description}
               image={project.image}
+              link={project.link}
             />
           </div>
         ))}
