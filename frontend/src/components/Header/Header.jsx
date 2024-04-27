@@ -4,6 +4,18 @@ import "./Header.css";
 import { assets } from "../../assets/assets";
 
 const Header = () => {
+  const handleGitHubClick = () => {
+    window.open("https://github.com/1zhanN", "_blank");
+  };
+
+  const handleInstagramClick = () => {
+    window.open("https://www.instagram.com/izhan_n", "_blank");
+  };
+
+  const handleLinkedInClick = () => {
+    window.open("https://www.linkedin.com/in/izhan-nadeem", "_blank");
+  };
+
   return (
     <div className="container" id="home">
       <div className="row">
@@ -19,25 +31,30 @@ const Header = () => {
             </p>
 
             <div className="mt-auto btn-container mb-2 p-2">
-              <button type="button" className="btn btn-dark btn-rounded ">
+              <button
+                onClick={() => {
+                  window.location.href = "mailto:izhann000@gmail.com";
+                }}
+                className="btn btn-dark btn-rounded"
+              >
                 Contact Me
               </button>
               <div>
                 <button
-                  type="button"
-                  className="btn btn-light btn-circle btn-xl "
+                  onClick={handleGitHubClick}
+                  className="btn btn-light btn-circle btn-xl"
                 >
                   <img src={assets.github} alt="GitHub" />
                 </button>
                 <button
-                  type="button"
-                  className="btn btn-light btn-circle btn-xl "
+                  onClick={handleInstagramClick}
+                  className="btn btn-light btn-circle btn-xl"
                 >
                   <img src={assets.insta} alt="Instagram" />
                 </button>
                 <button
-                  type="button"
-                  className="btn btn-light btn-circle btn-xl "
+                  onClick={handleLinkedInClick}
+                  className="btn btn-light btn-circle btn-xl"
                 >
                   <img src={assets.linkedin} alt="LinkedIn" />
                 </button>
@@ -54,4 +71,5 @@ const Header = () => {
     </div>
   );
 };
+
 export default Header;
