@@ -13,11 +13,12 @@ import food_delivery from './food-delivery.png'
 import hamsafar from './hamsafar.png'
 import movieland from './movieLand.png'
 import weatherapp from './weatherApp.png'
-
+import cross from './cross.png'
+import menu from './menu.png'
 
 export const assets = {
     myPic,
-    myPic2,
+    // myPic2,
     github,
     insta,
     linkedin,
@@ -29,8 +30,9 @@ export const assets = {
     food_delivery,
     hamsafar,
     movieland,
-    weatherapp
-    
+    weatherapp,
+    cross,
+    menu
 
 
 }

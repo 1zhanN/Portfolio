@@ -41,7 +41,7 @@ const Footer = () => {
                 >
                   Contact Me
                 </button>
-                <div>
+                <div className="contact-icons">
                   <button
                     type="button"
                     className="btn btn-light btn-circle btn-xl"

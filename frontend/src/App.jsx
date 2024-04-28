@@ -6,13 +6,17 @@ import Certificates from "./pages/Certificates/Certificates";
 
 function App() {
   return (
-    <div className="container col-sm-7">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/certificates" element={<Certificates />} />
-      </Routes>
-    </div>
+    <>
+      <div className="container">
+        <Navbar />
+      </div>
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/certificates" element={<Certificates />} />
+        </Routes>
+      </div>
+    </>
   );
 }
 

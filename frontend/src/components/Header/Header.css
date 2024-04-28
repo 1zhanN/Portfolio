@@ -45,3 +45,25 @@
     linear-gradient(180deg, rgba(221, 230, 221, 0.8), rgb(0 255 0 / 0%) 70.71%),
     linear-gradient(320deg, #d8ba6f, rgba(12, 12, 190, 0) 70.71%);
 }
+
+@media screen and (max-width: 766px) {
+  .header-m {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .btn-container button {
+    width: auto;
+   
+  }
+  .contact-icons{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.btn-container {
+    flex-direction: column;
+margin-bottom: 20px;
+    gap:20px;
+}
+}

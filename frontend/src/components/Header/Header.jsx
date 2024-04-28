@@ -20,7 +20,7 @@ const Header = () => {
     <div className="container" id="home">
       <div className="row">
         <div className="col-md-8">
-          <div className="card stacked-linear header-pp d-flex flex-column justify-content-between p-4">
+          <div className="card stacked-linear header-pp header-m d-flex flex-column justify-content-between p-4">
             <h1 className="mb-4 display-5">
               Hey, I'm Izhan, a Frontend Developer in his humble beginnings.
             </h1>
@@ -39,7 +39,7 @@ const Header = () => {
               >
                 Contact Me
               </button>
-              <div>
+              <div className="contact-icons">
                 <button
                   onClick={handleGitHubClick}
                   className="btn btn-light btn-circle btn-xl"
