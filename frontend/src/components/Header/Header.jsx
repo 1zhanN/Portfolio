@@ -18,9 +18,9 @@ const Header = () => {
 
   return (
     <div className="container" id="home">
-      <div className="row">
+      <div className="row header-rev">
         <div className="col-md-8">
-          <div className="card stacked-linear header-pp header-m d-flex flex-column justify-content-between p-4">
+          <div className="card stacked-linear header-pp header-m d-flex flex-column justify-content-between p-4 mb-4">
             <h1 className="mb-4 display-5">
               Hey, I'm Izhan, a Frontend Developer in his humble beginnings.
             </h1>
@@ -30,7 +30,7 @@ const Header = () => {
               worlds or beautifully designed websites.
             </p>
 
-            <div className="mt-auto btn-container mb-2 p-2">
+            <div className="btn-container mb-2 p-2">
               <button
                 onClick={() => {
                   window.location.href = "mailto:izhann000@gmail.com";

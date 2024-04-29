@@ -46,9 +46,14 @@
     linear-gradient(320deg, #d8ba6f, rgba(12, 12, 190, 0) 70.71%);
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
   .header-m {
     margin-bottom: 20px;
+  }
+  .header-rev{
+    gap: 30px;
+    flex-direction: column-reverse;
+  
   }
 }
 @media screen and (max-width: 600px) {
@@ -63,7 +68,8 @@
 }
 .btn-container {
     flex-direction: column;
-margin-bottom: 20px;
+    margin-bottom: 20px;
     gap:20px;
 }
+
 }

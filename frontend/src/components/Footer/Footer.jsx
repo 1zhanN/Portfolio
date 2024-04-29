@@ -32,7 +32,7 @@ const Footer = () => {
                 izhann000@gmail.com
               </p>
 
-              <div className="mt-auto btn-container mb-2 p-2">
+              <div className=" btn-container mb-2 p-2">
                 <button
                   type="button"
                   className="btn btn-dark btn-rounded"

@@ -1,3 +1,5 @@
+import logo from './logo.svg'
+
 import myPic from './izhan_pic_1.jpg'
 import myPic2 from './izhan_pic_2.jpg'
 import github from './github.png'
@@ -9,6 +11,7 @@ import insta_invert from './insta_invert.png'
 import linkedin_invert from './linkedin_invert.png'
 import external_link_invert from './external-link-invert.png'
 
+
 import food_delivery from './food-delivery.png'
 import hamsafar from './hamsafar.png'
 import movieland from './movieLand.png'
@@ -17,8 +20,9 @@ import cross from './cross.png'
 import menu from './menu.png'
 
 export const assets = {
+    logo,
     myPic,
-    // myPic2,
+    myPic2,
     github,
     insta,
     linkedin,
