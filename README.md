@@ -7,7 +7,7 @@ Welcome to my portfolio website built with React!
 
 This website serves as a showcase of my projects, skills, and experience. It provides an overview of who I am professionally and the work I've done.
 
-Check out the live site: [My Portfolio](https://662cff0d9d51f3cbfd3bf5bd--gleaming-peony-91a0aa.netlify.app/)
+Check out the live site: [My Portfolio](https://662f96240f5c5c15c5c3eec5--gleaming-peony-91a0aa.netlify.app/)
 
 ## Features
 
